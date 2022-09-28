@@ -139,7 +139,11 @@
     font-size: 4vw;
     line-height: 1.1;
   }
-  
+  #Me{
+    background-image: url("../images/me.jpg");
+    background-size: cover;
+    background-position: center;}
+
   .page-section > div {
     flex: 0 0 77%;
   }
@@ -158,15 +162,14 @@
     border: 5px solid var(--secondary);
     background-color: var(--primary);
     color: var(--tertiary);
-    min-height: 150px;
-    max-height: 150px;
+    min-height: 1500px;
+    max-height: 1500px;
     flex-basis: calc(50% - 1em);
     display: flex;
     align-items: flex-end;
     padding: 0 0 20px 0;
     margin: 0.5em;
     text-decoration: none;
-    background-blend-mode: soft-light;
     background-size: 150%;
     transition: all 0.5s;
     font-size: 0.9rem;
@@ -226,14 +229,14 @@
 #fmp
 {
     background-image: url("../images/Factory-Motor-Parts.png");
-    background-size: cover;
+    background-size: fit;
     background-position: center;
 }
   
 #leer
 {
     background-image: url("../images/leer.png");
-    background-size: cover;
+    background-size: fit;
     background-position: center;
 }
   @media screen and (max-width: 980px) {
