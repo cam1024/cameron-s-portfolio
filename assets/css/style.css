@@ -16,7 +16,7 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: var(--primary);
     background-color: var(--light);
-    line-height: 1.5;
+    line-height: 2;
   }
   
   h1,
@@ -131,6 +131,7 @@
     justify-content: space-between;
   }
   
+  
   .page-section > h2 {
     flex: 0 0 20%;
     text-align: right;
@@ -149,7 +150,7 @@
   }
   
   .page-section p {
-    margin-bottom: 20px;
+    margin-bottom: 75px;
   }
   
   .flex-container {
@@ -184,10 +185,7 @@
     align-items: flex-end;
     padding: 0 0 20px 0;
     margin: 0.5em;
-    text-decoration: none;
     background-size: 150%;
-    transition: all 0.5s;
-    font-size: 0.9rem;
   }
   
   .flex-item:first-child {
@@ -251,8 +249,8 @@
 #leer
 {
     background-image: url("../images/leer-logo.png");
-    background-size: fit;
-    background-position: center;
+    background-size: cover;
+    background-position: bottom;
 }
   @media screen and (max-width: 980px) {
     header {
