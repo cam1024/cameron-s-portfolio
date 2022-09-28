@@ -141,7 +141,7 @@
   }
   #Me{
     background-image: url("../images/me.jpg");
-    background-size: cover;
+    background-size: 100%;
     background-position: center;}
 
   .page-section > div {
@@ -158,12 +158,27 @@
     justify-content: center;
   }
   
+  .flex-item1 {   border: 5px solid var(--secondary);
+    background-color: var(--primary);
+    color: var(--tertiary);
+    min-height: 1000px;
+    max-height: 2000px;
+    flex-basis: calc(50% - 1em);
+    display: flex;
+    align-items: flex-end;
+    padding: 0 0 20px 0;
+    margin: 0.5em;
+    text-decoration: none;
+    background-size: 150%;
+    transition: all 0.5s;
+    font-size: 0.9rem;
+  }
   .flex-item {
     border: 5px solid var(--secondary);
     background-color: var(--primary);
     color: var(--tertiary);
-    min-height: 1500px;
-    max-height: 1500px;
+    min-height: 200px;
+    max-height: 200px;
     flex-basis: calc(50% - 1em);
     display: flex;
     align-items: flex-end;
@@ -235,7 +250,7 @@
   
 #leer
 {
-    background-image: url("../images/leer.png");
+    background-image: url("../images/leer-logo.png");
     background-size: fit;
     background-position: center;
 }
